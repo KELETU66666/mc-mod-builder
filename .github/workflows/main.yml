@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/malatindez/ThaumicExtensions/archive/refs/heads/master.zip
+      DL_URL: https://github.com/malatindez/ThaumicExtensions/archive/refs/heads/master
       Pack_Name: master
       Open_Pack_Name: ThaumicExtension-master
     steps:
