@@ -6,9 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/Funwayguy/BetterQuesting/archive/refs/heads/1.12.zip
-      Pack_Name: 1.12
-      Open_Pack_Name: BetterQuesting-1.12
+      DL_URL: https://github.com/T145/all-the-creepers/archive/refs/heads/master.zip
+      Pack_Name: master
+      Open_Pack_Name: all-the-creepers-master
     steps:
     - uses: actions/checkout@v2
     - name: Setup Java JDK 11
