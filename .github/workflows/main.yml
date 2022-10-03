@@ -6,9 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/Zokonius/Thaumic-Wands/archive/refs/heads/master.zip
-      Pack_Name: master
-      Open_Pack_Name: Thaumic-Wands-master
+      DL_URL: https://github.com/manageryzy/mITE/archive/refs/heads/1.12.x.zip
+      Pack_Name: 1.12.x
+      Open_Pack_Name: mITE-1.12.x
     steps:
     - uses: actions/checkout@v2
     - name: Setup Java JDK 11
