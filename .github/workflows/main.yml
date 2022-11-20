@@ -6,9 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/WitcheryResurrected/WitcheryResurrected/archive/refs/heads/main.zip
-      Pack_Name: main
-      Open_Pack_Name: WitcheryResurrected-main
+      DL_URL: https://github.com/WayofTime/BloodMagic/archive/refs/heads/3.0_rewrite.zip
+      Pack_Name: 3.0_rewrite
+      Open_Pack_Name: BloodMagic-3.0_rewrite
     steps:
     - uses: actions/checkout@v2
     - name: Setup Java JDK 11
