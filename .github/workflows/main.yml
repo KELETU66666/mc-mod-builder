@@ -6,9 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/Walaryne/voidgoggles/archive/refs/heads/master.zip
-      Pack_Name: master
-      Open_Pack_Name: voidgoggles-master
+      DL_URL: https://github.com/GregTechCEu/Gregification/archive/refs/heads/main.zip
+      Pack_Name: main
+      Open_Pack_Name: Gregification-main
     steps:
     - uses: actions/checkout@v2
     - name: Setup Java JDK 11
