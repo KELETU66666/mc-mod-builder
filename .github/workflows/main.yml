@@ -8,7 +8,7 @@ jobs:
     env:
       DL_URL: https://github.com/GregTechCEu/Gregification/archive/refs/heads/main.zip
       Pack_Name: main
-      Open_Pack_Name: Gregification-main
+      Open_Pack_Name: archive-main
     steps:
     - uses: actions/checkout@v2
     - name: Setup Java JDK 11
