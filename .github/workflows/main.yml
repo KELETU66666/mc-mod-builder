@@ -6,9 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/KELETU66666/GT5-Unofficial/archive/refs/heads/1.12.2.zip
-      Pack_Name: 1.12.2
-      Open_Pack_Name: GT5-Unofficial-1.12.2
+      DL_URL: https://github.com/KELETU66666/gregicality-science/archive/refs/heads/master.zip
+      Pack_Name: master
+      Open_Pack_Name: gregicality-science-master
     steps:
     - uses: actions/checkout@v2
     - name: Setup Java JDK 11
