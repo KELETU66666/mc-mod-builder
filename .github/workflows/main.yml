@@ -6,9 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/KELETU66666/GregTech/archive/refs/heads/master.zip
-      Pack_Name: master
-      Open_Pack_Name: GregTech-master
+      DL_URL: https://github.com/KELETU66666/GregTech/archive/refs/heads/unfucked-al-scanner.zip
+      Pack_Name: unfucked-al-scanner
+      Open_Pack_Name: GregTech-unfucked-al-scanner
     steps:
     - uses: actions/checkout@v2
     - name: Setup Java JDK 11
